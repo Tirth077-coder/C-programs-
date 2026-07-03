@@ -10,7 +10,7 @@ printf("TYPE THE INTGER NUMBER : ");
 scanf("%d",&y);
 
 float z = x - y;
-printf("THE FRACTIONAL PART IS : %f",z);
+printf("THE FRACTIONAL PART OF %f IS : %f",x,z);
 
     return 0;
 }
