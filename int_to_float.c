@@ -6,6 +6,6 @@ int main()
     scanf("%d",&x);
 
     float y = x/2.0;
-    printf("%f",y);
+    printf("THE HALF OF THE %d IS : %f" ,x,y);
     return 0;
 }
