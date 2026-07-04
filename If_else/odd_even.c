@@ -2,13 +2,14 @@
 int main()
 {
     int x;
-    printf("ENTER THE POSITIVE INTGER :");
+    printf("ENTER THE POSITIVE INTGER : ");
     scanf("%d",&x);
     if(x%2==0){
      printf("THE NUMBER IS EVEN");
     }
-    if(x%2!=0){
+    if(x%2!=0){                     // else{ printf("odd number");}
         printf("THE NUMBER IS ODD");
     }
+    
     return 0;
 }
